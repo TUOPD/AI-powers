@@ -1,0 +1,85 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Start/Start",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/AIspeak/AIspeak",
+			"style": {
+				"navigationBarTitleText": "智能对话"
+			}
+		},
+		{
+			"path": "pages/AIReadPage/AIReadPage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/AIReadShow/AIReadShow",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/AITextshowRead/AITextshowRead",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/Textshow/Textshow",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/Picreateshow/Picreateshow",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/PicCreate/PicCreate",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"tabBar": {
+	    "list": [
+		  {
+		    "pagePath": "pages/AIspeak/AIspeak",
+		    "text": "AI对话"
+		  },{
+			  "pagePath": "pages/AIReadPage/AIReadPage",
+			  "text": "AI识图"
+		  },
+		  {
+			  "pagePath": "pages/Textshow/Textshow",
+			  "text": "AI取词"
+		  },
+		  {
+			  "pagePath": "pages/PicCreate/PicCreate",
+			  "text": "图片生成"
+		  }
+	    ]},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#29c8f8",
+         "backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+				 "van-(.*)": "@vant/weapp/dist/$1/index.vue"
+			}
+		}
+}

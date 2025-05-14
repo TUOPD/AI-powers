@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/Start/Start",
+    "pages/AIspeak/AIspeak",
+    "pages/AIReadPage/AIReadPage",
+    "pages/AIReadShow/AIReadShow",
+    "pages/AITextshowRead/AITextshowRead",
+    "pages/Textshow/Textshow",
+    "pages/Picreateshow/Picreateshow",
+    "pages/PicCreate/PicCreate"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#29c8f8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/AIspeak/AIspeak",
+        "text": "AI对话"
+      },
+      {
+        "pagePath": "pages/AIReadPage/AIReadPage",
+        "text": "AI识图"
+      },
+      {
+        "pagePath": "pages/Textshow/Textshow",
+        "text": "AI取词"
+      },
+      {
+        "pagePath": "pages/PicCreate/PicCreate",
+        "text": "图片生成"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

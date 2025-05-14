@@ -1,0 +1,8 @@
+
+.AIreadPage{
+		width: 100vw;
+}
+.imgeshow{
+		width: 100%;
+		background-color: azure;
+}

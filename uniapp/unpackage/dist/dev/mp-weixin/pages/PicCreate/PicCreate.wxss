@@ -1,0 +1,21 @@
+
+.butter{
+		width: 25%;
+		height:6vh;
+		color: white;
+		font-family:Alimama FangYuanTi VF;
+}
+.Picreate{
+		 width: 100vw;
+		 height: 100vh;
+		 position: absolute;
+		 top: 0%;
+		 overflow: hidden;
+}
+.buttonsend{
+	 	width: 95%;
+	 	font-family: Alimama FangYuanTi VF;
+	 	color: white;
+	 	background-color: deepskyblue;
+	 	margin-top: 5%;
+}

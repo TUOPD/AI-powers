@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "uni-section": "../../node-modules/@dcloudio/uni-ui/lib/uni-section/uni-section"
+  }
+}

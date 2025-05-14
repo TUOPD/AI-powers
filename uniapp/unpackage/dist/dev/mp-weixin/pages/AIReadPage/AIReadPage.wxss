@@ -1,0 +1,15 @@
+
+.AIreadPage{
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0%;
+		overflow: hidden;
+}
+.buttonsend{
+		width: 95%;
+		font-family: Alimama FangYuanTi VF;
+		color: white;
+		background-color: deepskyblue;
+		margin-top: 3%;
+}
